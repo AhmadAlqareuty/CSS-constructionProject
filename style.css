@@ -1,10 +1,11 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
-  background-color: #eedba2;
+  background-color: rgba(5, 5, 5, 0.959);
   display: flex;
   flex-direction: column;
   min-height: 95vh;
+  color: azure;
 }
 .main {
   display: grid;
@@ -32,7 +33,7 @@ footer {
 .tile-image{
   height: 200px;
   width: 300px;
-  padding:30px;
+  padding: 30px;
 }
 .right > .tile-image{
   float:left;
