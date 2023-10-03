@@ -34,6 +34,8 @@ footer {
   height: 200px;
   width: 300px;
   padding: 30px;
+  border-radius: 60px;
+  
 }
 .right > .tile-image{
   float:left;
@@ -50,15 +52,17 @@ footer {
     text-align: center;
   }
   .logo{
-
-width: 120px;
- }
+    width: 120px;
+  }
  .main{
   display: block;
  }
  .tile-image{
   height: 200px;
-  width: 500px;
+  width: 100%;
+  text-align: justify;
+  object-fit: cover;
+  
 }
 }
 
