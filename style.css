@@ -32,6 +32,7 @@ footer {
 .tile-image{
   height: 200px;
   width: 300px;
+  padding:30px;
 }
 .right > .tile-image{
   float:left;
